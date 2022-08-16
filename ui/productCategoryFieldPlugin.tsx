@@ -2,7 +2,7 @@ import React from "react";
 import { CmsEditorFieldTypePlugin } from "@webiny/app-headless-cms/types";
 
 
-const TextIcon: React.FunctionComponent = () => <i>ICON</i>
+const DropdownIcon: React.FunctionComponent = () => <i>ICON</i>
 
 const plugin: CmsEditorFieldTypePlugin = {
     type: "cms-editor-field-type",
@@ -11,7 +11,7 @@ const plugin: CmsEditorFieldTypePlugin = {
         type: "product-category",
         label: "Product Category",
         description: "Product Category",
-        icon: <TextIcon />,
+        icon: <DropdownIcon />,
         allowMultipleValues: false,
         allowPredefinedValues: false,
         multipleValuesLabel: "Use as a list of multiple categories",
